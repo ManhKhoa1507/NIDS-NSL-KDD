@@ -1,0 +1,38 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_mapping
+#open	2021-11-07-10-47-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	path	service	native_file_system	share_type
+#types	time	string	addr	port	addr	port	string	string	string	string
+1552959895.854251	CRs75448EHBj9ZYSO7	10.0.90.215	49157	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552959897.018174	CZHpw04UzytcJ34KQi	10.0.90.215	49179	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552959897.019890	CZHpw04UzytcJ34KQi	10.0.90.215	49179	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\sysvol	-	-	DISK
+1552959980.797018	CxnPVv4SuMKAuzUd2j	10.0.90.215	49196	10.0.90.9	445	\\\\LittleTigers-DC\\IPC$	-	-	PIPE
+1552959980.905647	CxnPVv4SuMKAuzUd2j	10.0.90.215	49196	10.0.90.9	445	\\\\LittleTigers-DC\\Shared	-	-	DISK
+1552959981.313037	C3b1yf3kXS2IeG4yf4	10.0.90.215	49202	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\sysvol	-	-	DISK
+1552959997.310024	CxnPVv4SuMKAuzUd2j	10.0.90.215	49196	10.0.90.9	445	\\\\LittleTigers-DC\\IPC$	-	-	PIPE
+1552960796.258700	CvyzJo441I8Q8pqAm5	10.0.90.215	49207	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552961397.033275	C6aUag7h5ohTLOhhd	10.0.90.215	49227	10.0.90.9	445	\\\\LittleTigers-DC\\IPC$	-	-	PIPE
+1552961397.139530	C6aUag7h5ohTLOhhd	10.0.90.215	49227	10.0.90.9	445	\\\\LittleTigers-DC\\Shared	-	-	DISK
+1552961696.266776	C1cRDa2LH238KK4IBk	10.0.90.215	49232	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552962596.293922	CxrUTR3JQHAw8cD3R8	10.0.90.215	49233	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552963496.337124	CO61aH3L6gZZaqshk8	10.0.90.215	49240	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552964396.367969	CJgMnpUNOmInE5kic	10.0.90.215	49243	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552965296.394399	CHhjih346dJ5PdrVq3	10.0.90.215	49246	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552965682.680253	CgW5w43jVoFxFYVaOd	10.0.90.215	49252	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552965682.683801	CgW5w43jVoFxFYVaOd	10.0.90.215	49252	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\sysvol	-	-	DISK
+1552965837.958155	C7aRT01nrr1RhGgTAk	10.0.90.215	49258	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\sysvol	-	-	DISK
+1552966196.423427	Cplt5q7xrRpRDi1F5	10.0.90.215	49260	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552967096.449703	CUibOtrNTlrsAZo77	10.0.90.215	49263	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552967996.480036	CyqmWE2LMBxWgoWLrh	10.0.90.215	49266	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552968896.503937	CDzFhz38IzjPZOOv1	10.0.90.215	49269	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552969796.535423	CgWpm21Yi50RMrbL77	10.0.90.215	49270	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552970696.560615	Cd3RBeP1nr9LnVz4h	10.0.90.215	49273	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552971443.861011	Cscn2t1n3yj4uwlQwj	10.0.90.215	49304	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552971443.862680	Cscn2t1n3yj4uwlQwj	10.0.90.215	49304	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\sysvol	-	-	DISK
+1552971595.721401	C6aUag7h5ohTLOhhd	10.0.90.215	49227	10.0.90.9	445	\\\\LittleTigers-DC\\IPC$	-	-	PIPE
+1552971596.584852	CzPRKp2xX5At3dR5W7	10.0.90.215	49307	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\IPC$	-	-	PIPE
+1552971779.129801	Ceyjrl13153n3U2buc	10.0.90.215	49312	10.0.90.9	445	\\\\LittleTigers-DC.littletigers.info\\sysvol	-	-	DISK
+#close	2021-11-07-10-47-52

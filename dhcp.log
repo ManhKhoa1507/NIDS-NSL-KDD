@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2021-11-07-10-47-52
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1552959898.681594	CmNwqT2Gwmo23WTbBk,CufUvR3XBSLPwxvxIe	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000375
+1552960024.528666	CZL4qO3f9An6YoUoq9,CuceIc1vBygUw0JMEl	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000392
+1552960185.893185	CTqC7jkLM6WeI80B5,CD8UdAztp09eTSDug	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000422
+1552960839.947329	CnDDl74reQsOS2VLoh,C42lrX1idYxPwJ0Jtc	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000268
+1552960999.162850	C3lgMl4IGfPmRYbBx4,CCpD5k3B0hxLDWakC	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000598
+1552961296.484040	C7rRBo4SZ7THKi7v45,CnBIBm3BoB6HyjXFOb	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000644
+1552970846.191937	C9mLeK1OVBethWbMke,CnZfbD1bag413M0PQb	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000253
+1552971245.360596	CqPehs1Lwh66zjr9J6,C7qCWd4ygoqDdbwVDe	10.0.90.215	-	64:32:a8:57:2b:42	Bobby-Tiger-PC	-	littletigers.info	-	-	-	-	-	INFORM,ACK	0.000749
+#close	2021-11-07-10-47-52

@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2021-11-07-10-47-52
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1552959897.021664	FKU0fE4gbYzTjWXnt4	10.0.90.9	10.0.90.215	CZHpw04UzytcJ34KQi	SMB	0	(empty)	text/ini	littletigers.info\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	22	22	0	0	F	-	-	-	-	-	-	-
+1552959901.315002	FXCRVN3LSZeSFxQj12	209.121.139.185	10.0.90.215	CZpNGB1iBTMfQfKED1	HTTP	0	(empty)	text/plain	-	0.000000	-	F	14	14	0	0	F	-	-	-	-	-	-	-
+1552959981.313980	FKU0fE4gbYzTjWXnt4	10.0.90.9	10.0.90.215	C3b1yf3kXS2IeG4yf4	SMB	0	(empty)	text/ini	littletigers.info\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	22	22	0	0	F	-	-	-	-	-	-	-
+1552960024.644853	FC9Wmv4IBSNqmXxLpc	209.141.34.8	10.0.90.215	CXKnoe2L2l5ejjRSKk	HTTP	0	PE	application/x-dosexec	-	0.285989	-	F	811520	811520	0	0	F	-	-	-	-	-	-	-
+1552960186.223439	FNJoBI2G2wcZfna8gg	217.23.14.81	10.0.90.215	CsPaEf2XlCFXbTsbNk	HTTP	0	PE	application/x-dosexec	F4.exe	0.637001	-	F	176128	176128	0	0	F	-	-	-	-	-	-	-
+1552961003.830737	F3k6bM3E6EgtWHrRHd	173.205.6.202	10.0.90.215	CGb29b4FjUGzTKHEj	HTTP	0	(empty)	-	-	0.000000	-	F	506	506	0	0	F	-	-	-	-	-	-	-
+1552965682.685229	FKU0fE4gbYzTjWXnt4	10.0.90.9	10.0.90.215	CgW5w43jVoFxFYVaOd	SMB	0	(empty)	text/ini	littletigers.info\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	22	22	0	0	F	-	-	-	-	-	-	-
+1552965837.960115	FKU0fE4gbYzTjWXnt4	10.0.90.9	10.0.90.215	C7aRT01nrr1RhGgTAk	SMB	0	(empty)	text/ini	littletigers.info\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	22	22	0	0	F	-	-	-	-	-	-	-
+1552971443.864433	FKU0fE4gbYzTjWXnt4	10.0.90.9	10.0.90.215	Cscn2t1n3yj4uwlQwj	SMB	0	(empty)	text/ini	littletigers.info\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	22	22	0	0	F	-	-	-	-	-	-	-
+1552971779.131890	FKU0fE4gbYzTjWXnt4	10.0.90.9	10.0.90.215	Ceyjrl13153n3U2buc	SMB	0	(empty)	text/ini	littletigers.info\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	22	22	0	0	F	-	-	-	-	-	-	-
+#close	2021-11-07-10-47-52

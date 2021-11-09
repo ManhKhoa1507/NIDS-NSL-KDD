@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2021-11-07-10-47-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1552959901.306324	CZpNGB1iBTMfQfKED1	10.0.90.215	49183	209.121.139.185	80	1	GET	www.msftncsi.com	/ncsi.txt	-	1.1	Microsoft NCSI	-	0	14	200	OK	-	-	(empty)	-	-	-	-	-	-	FXCRVN3LSZeSFxQj12	-	text/plain
+1552960024.599220	CXKnoe2L2l5ejjRSKk	10.0.90.215	49204	209.141.34.8	80	1	GET	209.141.34.8	/test1.exe	-	1.1	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)	-	0	811520	200	OK	-	-	(empty)	-	-	-	-	-	-	FC9Wmv4IBSNqmXxLpc	-	application/x-dosexec
+1552960186.057432	CsPaEf2XlCFXbTsbNk	10.0.90.215	49206	217.23.14.81	80	1	GET	217.23.14.81	/f4.exe	-	1.1	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)	-	0	176128	200	OK	-	-	(empty)	-	-	-	-	-	-	FNJoBI2G2wcZfna8gg	F4.exe	application/x-dosexec
+1552961003.800356	CGb29b4FjUGzTKHEj	10.0.90.215	49212	173.205.6.202	80	1	GET	crl.microsoft.com	/pki/crl/products/CSPCA.crl	-	1.1	Microsoft-CryptoAPI/6.1	-	0	506	200	OK	-	-	(empty)	-	-	-	-	-	-	F3k6bM3E6EgtWHrRHd	-	-
+#close	2021-11-07-10-47-52

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2021-11-07-10-47-52
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1552961004.349141	63c043d359732e75123301e787119fee8a680d6f47e473e74c68be478144e227	3	E7AC9ED9F0DA169C	CN=3Aprefotoutoora.2Lecenwin.mz,O=Wsiaen LLC.,L=Male,C=MV	CN=3Aprefotoutoora.2Lecenwin.mz,O=Wsiaen LLC.,L=Male,C=MV	1552870709.000000	1568595509.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	T	F
+1552961297.677686	079df662fb54c907b120140cc9ae62f350c7f2851fba917adec7cf36ec5eca01	3	C4ABD293B1458B00	CN=Vedabenm.cabermasthttan.sarl,OU=Ganof and Vititiraz,O=Pratherl NL,L=Tel Aviv,ST=Witba oredorya8 dtjen siral,C=IL	CN=Vedabenm.cabermasthttan.sarl,OU=Ganof and Vititiraz,O=Pratherl NL,L=Tel Aviv,ST=Witba oredorya8 dtjen siral,C=IL	1552307399.000000	1568032199.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	T	F
+1552971310.589533	5d792e3477d6cc34007947d7dca4a115c8fc16a05ac08d0d04e708dd458b55ed	3	BB132B3321B42E29	CN=llhengrvish.hefangrrratsas.management,OU=surc and pebonerer,O=Woioma Tinnanerc A.M.B.A.,L=Tel Aviv,ST=Hacogrtev asatu,C=IL	CN=llhengrvish.hefangrrratsas.management,OU=surc and pebonerer,O=Woioma Tinnanerc A.M.B.A.,L=Tel Aviv,ST=Hacogrtev asatu,C=IL	1552451187.000000	1568175987.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-	T	F
+#close	2021-11-07-10-47-52
